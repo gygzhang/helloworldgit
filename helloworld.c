@@ -9,6 +9,7 @@ int main(){
 	char *info = (char*)malloc(sizeof(char)*200);
 	//fscanf(fp,"%s %s %s",name,num,class);
 	fgets(info,100,fp);
+	printf("add sth ahead\n");
 	//printf("hello world!\n%s,%s,%s\n",name,num,class);
 	printf("hello world!\n%s\n",info);
 	printf("some modification");
